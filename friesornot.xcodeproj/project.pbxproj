@@ -12,6 +12,8 @@
 		CE0D92DA1F31915100918F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0D92D81F31915100918F97 /* Main.storyboard */; };
 		CE0D92DC1F31915100918F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0D92DB1F31915100918F97 /* Assets.xcassets */; };
 		CE0D92DF1F31915100918F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0D92DD1F31915100918F97 /* LaunchScreen.storyboard */; };
+		CE0D92E71F319FDC00918F97 /* CustomVisionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D92E61F319FDC00918F97 /* CustomVisionResult.swift */; };
+		CE0D92E91F31A3EA00918F97 /* CustomVisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D92E81F31A3EA00918F97 /* CustomVisionService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CE0D92DB1F31915100918F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0D92DE1F31915100918F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE0D92E01F31915100918F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0D92E61F319FDC00918F97 /* CustomVisionResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVisionResult.swift; sourceTree = "<group>"; };
+		CE0D92E81F31A3EA00918F97 /* CustomVisionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVisionService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CE0D92DB1F31915100918F97 /* Assets.xcassets */,
 				CE0D92DD1F31915100918F97 /* LaunchScreen.storyboard */,
 				CE0D92E01F31915100918F97 /* Info.plist */,
+				CE0D92E61F319FDC00918F97 /* CustomVisionResult.swift */,
+				CE0D92E81F31A3EA00918F97 /* CustomVisionService.swift */,
 			);
 			path = friesornot;
 			sourceTree = "<group>";
@@ -96,7 +102,7 @@
 				TargetAttributes = {
 					CE0D92D01F31915100918F97 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 97XZ4KZH4H;
+						DevelopmentTeam = 6TK8Q4KD6G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0D92E91F31A3EA00918F97 /* CustomVisionService.swift in Sources */,
+				CE0D92E71F319FDC00918F97 /* CustomVisionResult.swift in Sources */,
 				CE0D92D71F31915100918F97 /* ViewController.swift in Sources */,
 				CE0D92D51F31915100918F97 /* AppDelegate.swift in Sources */,
 			);
@@ -261,8 +269,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 97XZ4KZH4H;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
 				INFOPLIST_FILE = friesornot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.riigatoyosaki.friesornot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,8 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 97XZ4KZH4H;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
 				INFOPLIST_FILE = friesornot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.riigatoyosaki.friesornot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +312,7 @@
 				CE0D92E51F31915100918F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
