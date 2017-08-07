@@ -31,6 +31,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+    }
+    
     @IBAction func selectImage(_ sender: UITapGestureRecognizer) {
         let imagePickerController = UIImagePickerController()
         
